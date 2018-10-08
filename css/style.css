@@ -693,6 +693,7 @@ header {
     padding: 40px 20px;
     border: 1px solid #EEE;
     margin: 15px 0px;
+    min-height: 400px;
 }
 
 .about i {
