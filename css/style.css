@@ -1850,7 +1850,7 @@ header {
 
 .navbar21 {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(238, 189, 29, 0.8);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -1885,7 +1885,7 @@ header {
 }
 
 .dropdown21-content {
-    display: block;
+    display: none;
     position: absolute;
     background-color: #f9f9f9;
     width: 100%;
@@ -1907,10 +1907,10 @@ header {
 /* Create three equal column21s that floats next to each other */
 .column21 {
     float: left;
-    width: 33.33%;
+    width: 11.11%;
     padding: 10px;
     background-color: #ccc;
-    height: 250px;
+    height: 280px;
 }
 
 .column21 a {
@@ -1939,4 +1939,27 @@ header {
         width: 100%;
         height: auto;
     }
+}
+
+.bgc-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right,#eb01a5, #d13531);
+}
+
+.bgc-img .overlayc {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+    background: #1C1D21;
 }
